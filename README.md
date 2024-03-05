@@ -61,5 +61,19 @@ Both parties need to hand over the key to complete a key exchange
 5. The encryption and decryption functions and key management functions invoke the key service functions to read and store keys
 6. The key service function accesses the key storage system to read and write keys
 
-## Structure Chart
+## Structure
 ![img.png](document/img/structure-chart.png)
+
+## Function
+### User
+Users log in to the platform and use the functions
+### Role
+A role associates operations and menus. Users can obtain menus and operation rights by associating with roles
+### Algorithm classification
+Classification of management algorithms
+### Algorithm management
+To manage different algorithms
+### Key management
+Fragment the keys and store them separately. Bind the keys to the applications' information, and support version recording
+### Key Storage
+The key is fragmented and stored separately in the database and file system
