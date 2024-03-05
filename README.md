@@ -1,4 +1,17 @@
 # AS-Security
+## Modules Description
+### as-key-console
+Provides users with an entrance to manage keys
+### as-key-service
+Provides key and algorithm management and storage services
+### as-security-framework
+Provide system based framework services
+### as-security-system
+Provides system permission service and permission control
+### as-security-api
+Provide the encryption and decryption service entrance to the outside, and supply the call,
+encrypt and decrypt the data through the algorithm
+
 ## Instructions
 AS-Security is a service for encrypting/decrypting sensitive data. 
 Such as usernames, mobile phone numbers, passwords, and even credit cards.
