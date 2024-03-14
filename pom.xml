@@ -18,7 +18,7 @@
         <module>as-key-service</module>
         <module>as-security-system</module>
         <module>as-security-framework</module>
-        <module>as-key-manage</module>
+        <module>as-key-console</module>
         <module>as-security-api</module>
     </modules>
 
