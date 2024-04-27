@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * Description for this class
+ * Meta data of file
  *
  * <p>
  *
@@ -23,5 +23,4 @@ public class FileMeta {
     private byte[] fileData;
     private String fileType;
     private String filePath;
-    private String fileMd5;
 }
